@@ -146,12 +146,3 @@ Expected results for large N (≥ 1024):
 | Pthreads | 4 | ~2.8× |
 | MPI+OpenMP | 4 | ~2.5× (overhead from Allreduce) |
 
----
-
-## Team Assignment (3 Members)
-
-| Member | Responsibility |
-|---|---|
-| Member 1 | `nbody.cpp` (core) + `serial_nbody.cpp` + correctness verification |
-| Member 2 | `openmp_nbody.cpp` + `pthread_nbody.cpp` + synchronisation analysis |
-| Member 3 | `mpi_nbody.cpp` + benchmark scripts + plots + report/presentation |
